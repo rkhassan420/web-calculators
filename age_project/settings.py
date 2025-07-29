@@ -30,11 +30,11 @@ ALLOWED_HOSTS = ['*']
 CORS_ALLOW_CREDENTIALS = True
 
 CORS_ALLOWED_ORIGINS = [
-      "https://alicalculators.netlify.app/",  # React frontend
+      "https://alicalculators.netlify.app",  # React frontend
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-      "https://alicalculators.netlify.app/",
+      "https://alicalculators.netlify.app",
 ]
 
 
